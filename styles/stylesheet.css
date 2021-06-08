@@ -37,7 +37,7 @@ header nav ul {
 }
 
 nav ul li a {
-  color: #000;
+  color: #575e68;
   font-weight: normal;
   text-decoration: none;
   text-align: right;
@@ -55,7 +55,6 @@ nav {
 }
 
 #banner {
-  background-image: url(styles/banner.jpg);
   background-size: 100%;
   display: grid;
   align-items: center;
@@ -68,11 +67,11 @@ nav {
 }
 
 .one {
-  height: 70rem;
   display: grid;
   justify-content: center;
 }
 
+/*---------------------------------------------Footer START----------------------------------------------------------------*/
 .bunden {
   color: #575e68;
   font-size: 1.9rem;
@@ -80,20 +79,47 @@ nav {
   font-weight: 400;
   font-style: normal;
   display: grid;
+  padding-top: 20rem;
 }
 
-/*
-@media (orientation: portrait) and (min-width: 500px) {
-  .one {
-    width: 100%;
-    height: 56.25vw;
-  }
+/*---------------------------------------------Footer SLUT-----------------------------------------------------------------*/
+
+/*---------------------------------------------Om mig START----------------------------------------------------------------*/
+
+#section_two {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  gap: 3rem;
+  padding-top: 5%;
 }
 
-@media (min-width: 700px) {
-  .one {
-    display: grid;
-    gap: 10px;
-  }
+.two {
+  display: grid;
+  justify-content: center;
 }
-*/
+
+.picture_two {
+  height: 10rem;
+  width: 10rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  font-family: mencken-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+p {
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  font-family: mencken-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+/*---------------------------------------------Om mig SLUT-----------------------------------------------------------------*/
