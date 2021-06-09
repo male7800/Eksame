@@ -88,7 +88,7 @@ nav {
 
 #section_two {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr 2fr 1fr;
   justify-content: center;
   gap: 3rem;
   padding-top: 5%;
@@ -98,11 +98,13 @@ nav {
 .two {
   display: grid;
   justify-content: center;
+  grid-column: 2/3;
 }
 
 .picture_two {
   height: 10rem;
   width: 10rem;
+  grid-column: 2/3;
 }
 
 h4 {
@@ -124,3 +126,25 @@ p {
 }
 
 /*---------------------------------------------Om mig SLUT-----------------------------------------------------------------*/
+
+/*---------------------------------------------Portfolie START-------------------------------------------------------------*/
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*---------------------------------------------Portfolie SLUT--------------------------------------------------------------*/
