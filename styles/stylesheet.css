@@ -150,3 +150,40 @@ p {
 }
 
 /*---------------------------------------------Portfolie SLUT--------------------------------------------------------------*/
+
+.hidden {
+  /*    display: none;*/
+  /*    transform: scale(0);*/
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+#menuknap {
+  display: inline-block;
+  position: fixed;
+  color: #7d8d7b;
+  padding: 1rem;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#menu {
+  list-style-type: none;
+  transition: transform 0.3s;
+  transform-origin: top left;
+}
+
+@media only screen and (min-width: 600px) {
+  #menuknap {
+    display: none;
+  }
+
+  #menu.hidden {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  #menu li {
+    display: inline-block;
+  }
+}
