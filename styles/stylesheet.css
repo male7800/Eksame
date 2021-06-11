@@ -60,11 +60,22 @@ nav {
   align-items: center;
   justify-content: center;
   background-image: url(banner.webp);
+  height: 30vw;
+  width: 100%;
+}
+
+.tekst_two {
+  font-size: 3rem;
+  font-family: looking-flowers-script, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
 }
 
 .logo {
   height: 5rem;
   width: 5rem;
+  place-content: ;
 }
 
 .one {
@@ -87,28 +98,21 @@ nav {
 
 /*---------------------------------------------Om mig START----------------------------------------------------------------*/
 
-#section_two {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  justify-content: center;
-  gap: 3rem;
-  padding-top: 5%;
-  padding-left: 5%;
-}
-
-.two {
-  display: grid;
-  justify-content: center;
-  grid-column: 2/3;
-}
-
 .picture_two {
   height: 10rem;
   width: 10rem;
-  grid-column: 2/3;
 }
 
 h4 {
+  font-size: 1.3rem;
+  border-radius: 1rem;
+  font-family: mencken-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+h3 {
   font-size: 1.5rem;
   border-radius: 1rem;
   font-family: mencken-std, sans-serif;
@@ -191,3 +195,29 @@ p {
 }
 
 /*-------------------------------------------------Menu SLUT--------------------------------------------------------------*/
+
+/*-------------------------------------------------Tema START-------------------------------------------------------------*/
+
+#section_three {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 5rem;
+  padding-top: 5%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.three {
+  display: grid;
+  justify-content: center;
+  grid-column: 1fr 1fr;
+}
+
+@media (max-width: 700px) {
+  #section_three {
+    grid-template-columns: 1fr;
+  }
+}
+/*-------------------------------------------------Tema SLUT-------------------------------------------------------------*/
