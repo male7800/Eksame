@@ -16,6 +16,7 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 li {
   float: left;
 }
@@ -42,7 +43,7 @@ nav ul li a {
   text-decoration: none;
   text-align: right;
   padding: 1rem;
-  font-size: 2.1rem;
+  font-size: 3rem;
   border-radius: 1rem;
   font-family: looking-flowers-script, sans-serif;
   font-weight: 400;
@@ -52,6 +53,10 @@ nav ul li a {
 nav {
   background-color: white;
   opacity: 40%;
+}
+
+li:hover a {
+  color: #a44ebb;
 }
 
 #banner {
@@ -91,7 +96,25 @@ nav {
   font-weight: 400;
   font-style: normal;
   display: grid;
-  padding-top: 20rem;
+  padding-top: 2rem;
+}
+
+footer {
+  background-color: white;
+  opacity: 40%;
+  margin-top: 5rem;
+}
+
+.bunden_image {
+  height: 2rem;
+  width: 2rem;
+  margin-top: 0rem;
+  margin-left: 1rem;
+}
+
+.linke {
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 /*---------------------------------------------Footer SLUT-----------------------------------------------------------------*/
@@ -99,8 +122,9 @@ nav {
 /*---------------------------------------------Om mig START----------------------------------------------------------------*/
 
 .picture_two {
-  height: 10rem;
-  width: 10rem;
+  height: 18rem;
+  width: 18rem;
+  padding-left: 3rem;
 }
 
 h4 {
